@@ -1,4 +1,4 @@
-import string                            #нужен для работы со стороками
+import string                            #нужен для работы со строками
 stroka = input ("Введите строку:  ")
 count_low=0
 count_high=0
