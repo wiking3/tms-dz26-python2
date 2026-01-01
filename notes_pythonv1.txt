@@ -8,7 +8,8 @@
    list_comprehension = [x**2 for x in range(5)] # [0, 1, 4, 9, 16]
    my_list[2] = 35                               # Изменение элементов
    print(my_list)                                
-   
+   char_tuple = tuple(list_of_chars)   #Преобразуем список в кортеж
+
    # Срезы (slices)
      print(my_list[1:4]) # [20, 35, 40]
      print(my_list[::2]) # [10, 35, 50] – с шагом 2
@@ -60,7 +61,8 @@
           tuple2 = (3, 4)
           combined_tuple = tuple1 + tuple2 # (1, 2, 3, 4) 
       
-
+      char_tuple = tuple(list_of_chars)   #Преобразуем список в кортеж
+        
 
 3. Массивы из модуля array  //Компактные массивы однотипных данных
        
