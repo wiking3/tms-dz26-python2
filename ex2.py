@@ -1,10 +1,10 @@
-import string                            #нужен для работы со строками
+import string                             #нужен для работы со строками
 stroka = input ("Введите строку:  ")
 count_low=0
 count_high=0
 count_number=0
 count_punkt=0     
-punctuation_chars = string.punctuation    #содержит массив из символов пунктуации
+punctuation_chars = string.punctuation     #содержит массив из символов пунктуации
 for char in stroka:
     if char.isupper(): 
             count_high += 1
