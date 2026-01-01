@@ -102,10 +102,16 @@
     #преобразование строки в кортеж (как 1 элемент кортежа!)
     letters = 'abcdefghijkl'
       tpl = (letters,)              #нужна запитая чтобы преобразовало как один элемент кортежа
-      print(tpl)    выводит: ('abcdefghijkl',)
+      print(tpl)    выводит: ('abcdefghijkl',) - Но помните о , иначе получите строку, а не кортеж
 
-Но помните о , иначе получите строку, а не кортеж
-
+    # Проверяет, все ли элементы в кортеже уникальны, используя цикл
+    def are_elements_unique_loop(my_tuple):     
+     seen = []
+     for element in my_tuple:
+       if element in seen:
+        return False                          # Найден дубликат
+       seen.append(element)
+     return True                             # Дубликатов не найдено
 
 3. Массивы из модуля array  //Компактные массивы однотипных данных
        
