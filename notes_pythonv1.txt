@@ -65,7 +65,7 @@
           combined_tuple = tuple1 + tuple2 # (1, 2, 3, 4) 
       
       char_tuple = tuple(list_of_chars)   #Преобразуем список в кортеж
-        
+      print("Тип данных:", type(char_tuple))  # проверка типа данных 
 
 3. Массивы из модуля array  //Компактные массивы однотипных данных
        
