@@ -1,6 +1,6 @@
 #скрипт пингует из списка IP, которые вводит пользователь  и записывает результат пинга в файл result.log 
-import ipaddress      #нужен чтобы проверить что указанная строка - это ip
-import subprocess     #нужен чтобы выполнить команду ping
+import ipaddress       #нужен чтобы проверить что указанная строка - это ip
+import subprocess      #нужен чтобы выполнить команду ping
 
 def ping(host):
     result = subprocess.run(['ping', '-c', '4', host], stdout=subprocess.PIPE)
