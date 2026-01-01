@@ -10,7 +10,7 @@ def are_elements_unique_loop(my_tuple):     # функция проверяет,
 
 input_string = input("Введите символы, разделенные пробелом: ")
 list_of_chars = input_string.split()
-char_tuple = tuple(list_of_chars)          #Преобразуем список в кортеж
+char_tuple = tuple(list_of_chars)           #Преобразуем список в кортеж
 
 
 if are_elements_unique_loop(char_tuple)==False :          #вызываем функцию на "уникальность кортежа" и проверяем ее результат
