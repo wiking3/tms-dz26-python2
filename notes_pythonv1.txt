@@ -11,7 +11,7 @@
    char_tuple = tuple(list_of_chars)   #Преобразуем список в кортеж
     
    input_string = input("Введите символы, разделенные пробелом: ")
-   list_of_chars = input_string.split()      # преобразует строку с проблеами в список
+   list_of_chars = input_string.split()      # преобразует строку с пробелами в список
 
    # Срезы (slices)
      print(my_list[1:4]) # [20, 35, 40]
